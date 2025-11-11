@@ -159,6 +159,7 @@
             "product_title_4nY4eT": {
               "type": "product-title",
               "name": "t:names.product_title",
+              "disabled": true,
               "settings": {
                 "width": "100%",
                 "max_width": "normal",
@@ -183,6 +184,7 @@
             },
             "price_EzJzMm": {
               "type": "price",
+              "disabled": true,
               "settings": {
                 "show_sale_price_first": true,
                 "show_installments": false,
