@@ -98,7 +98,7 @@
           "type": "button",
           "name": "t:names.button",
           "settings": {
-            "label": "See All Items",
+            "label": "View All",
             "link": "shopify://collections/all",
             "open_in_new_tab": false,
             "style_class": "button-secondary",
@@ -185,7 +185,7 @@
               "type": "_product-card-gallery",
               "name": "t:names.product_card_media",
               "settings": {
-                "image_ratio": "square",
+                "image_ratio": "adapt",
                 "border": "none",
                 "border_width": 1,
                 "border_opacity": 100,
@@ -413,7 +413,6 @@
             "collection-card-image": {
               "type": "_collection-card-image",
               "name": "t:names.collection_card_image",
-              "disabled": true,
               "static": true,
               "settings": {
                 "image_ratio": "adapt",
