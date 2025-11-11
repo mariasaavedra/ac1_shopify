@@ -290,7 +290,7 @@
             "placement": "on_image",
             "horizontal_alignment": "center",
             "vertical_alignment": "flex-end",
-            "collection_card_gap": 48,
+            "collection_card_gap": 28,
             "inherit_color_scheme": true,
             "color_scheme": "",
             "border": "none",
