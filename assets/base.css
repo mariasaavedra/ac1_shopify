@@ -4496,6 +4496,9 @@ div#password-form {
 #password-form .field__input {
   color: white;
 }
+#password-form .field__input::placeholder {
+  color: white;
+}
 h2#password-heading {
     font-size: 14px;
 }
