@@ -4296,3 +4296,6 @@ text-component {
     font-size: max(1rem, 100%);
   }
 }
+.menu-drawer__menu-item-text  {
+  font-size: 1rem;
+}
