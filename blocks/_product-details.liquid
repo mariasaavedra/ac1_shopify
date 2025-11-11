@@ -1,5 +1,3 @@
-
-
 {%- assign block_settings = block.settings -%}
 
 <div
@@ -31,39 +29,48 @@
 </div>
 
 {% stylesheet %}
-  /* Clear padding on mobile, if not full-width */
-  @media screen and (max-width: 749px) {
-    .product-information.section--page-width .product-details > .group-block {
-      padding-inline: 0;
-    }
+    /* Clear padding on mobile, if not full-width */
+    @media screen and (max-width: 749px) {
+      .product-information.section--page-width .product-details > .group-block {
+        padding-inline: 0;
+      }
+      .product-form-buttons.spacing-style.product-form-buttons--stacked {
+        position: fixed;
+        left: 0;
+        bottom: 156px;
+        right: 0;
+        background: red;
+        z-index: 9999;
   }
 
-  .view-product-title {
-    display: none;
-  }
-
-  /* Container styles */
-  .product-details {
-    display: flex;
-    align-self: start;
-    justify-content: center;
-  }
-
-  @media screen and (min-width: 750px) {
-    .product-details > .group-block {
-      height: min-content;
     }
 
-    .full-height--desktop {
-      height: 100%;
-      max-height: calc(100vh - var(--header-group-height, 0));
-      min-height: fit-content;
+    .view-product-title {
+      display: none;
     }
 
-    .full-height--desktop .group-block {
-      align-self: var(--details-position, 'flex-start');
+    /* Container styles */
+    .product-details {
+      display: flex;
+      align-self: start;
+      justify-content: center;
     }
-  }
+
+    @media screen and (min-width: 750px) {
+      .product-details > .group-block {
+        height: min-content;
+      }
+
+      .full-height--desktop {
+        height: 100%;
+        max-height: calc(100vh - var(--header-group-height, 0));
+        min-height: fit-content;
+      }
+
+      .full-height--desktop .group-block {
+        align-self: var(--details-position, 'flex-start');
+      }
+    }
 {% endstylesheet %}
 
 {% schema %}
