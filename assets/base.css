@@ -4496,3 +4496,6 @@ div#password-form {
 h2#password-heading {
     font-size: 14px;
 }
+button.button.password__submit-button {
+  width: 100%;
+}
