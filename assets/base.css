@@ -581,10 +581,9 @@ p:empty {
   .grid {
     display: grid;
     gap: 0;
-    grid-template-columns: var(--margin-4xl) repeat(
-        var(--centered-column-number),
-        minmax(0, 1fr)
-      ) var(--margin-4xl);
+    grid-template-columns:
+      var(--margin-4xl) repeat(var(--centered-column-number), minmax(0, 1fr))
+      var(--margin-4xl);
     grid-template-areas: "column-0 column-1 column-2 column-3 column-4 column-5 column-6 column-7 column-8 column-9 column-10 column-11 column-12 column-13";
   }
 }
@@ -4493,4 +4492,7 @@ div#password-form {
   align-items: center; /* vertical center */
   justify-content: center; /* horizontal center */
   color: white;
+}
+h2#password-heading {
+    font-size: 14px;
 }
