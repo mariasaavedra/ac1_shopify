@@ -4506,6 +4506,7 @@ button.button.password__submit-button {
   width: 100%;
 }
 .password__content {
+  padding: 1rem;
   display: flex;
   flex-direction: column;
   gap: 0.8rem;
