@@ -98,7 +98,7 @@
           "type": "button",
           "name": "t:names.button",
           "settings": {
-            "label": "View All",
+            "label": "View All Items",
             "link": "shopify://collections/all",
             "open_in_new_tab": false,
             "style_class": "button-secondary",
