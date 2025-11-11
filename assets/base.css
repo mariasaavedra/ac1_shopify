@@ -4500,8 +4500,13 @@ div#password-form {
   color: white;
 }
 h2#password-heading {
-    font-size: 14px;
+  font-size: 14px;
 }
 button.button.password__submit-button {
   width: 100%;
+}
+.password__content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
 }
