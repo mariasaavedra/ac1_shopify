@@ -92,7 +92,12 @@
                   {% if product_option_value.variant.id %}
                     data-variant-id="{{ product_option_value.variant.id }}"
                   {% endif %}
-                  data-current-checked="false"
+                  {% if product_option_value.selected %}
+                    data-current-checked="true"
+                    checked
+                  {% else %}
+                    data-current-checked="false"
+                  {% endif %}
                 >
                 {% if variant_style == 'swatch' %}
                   {% liquid
@@ -188,6 +193,8 @@
           </div>
         {%- endif -%}
       {%- endfor -%}
+
+     
     </form>
   </variant-picker>
 {% endunless %}
