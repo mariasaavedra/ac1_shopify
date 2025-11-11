@@ -287,10 +287,10 @@
           "settings": {
             "placement": "on_image",
             "horizontal_alignment": "center",
-            "vertical_alignment": "flex-end",
+            "vertical_alignment": "center",
             "collection_card_gap": 28,
-            "inherit_color_scheme": true,
-            "color_scheme": "",
+            "inherit_color_scheme": false,
+            "color_scheme": "scheme-6",
             "border": "none",
             "border_width": 1,
             "border_opacity": 100,
@@ -413,7 +413,7 @@
               "name": "t:names.collection_card_image",
               "static": true,
               "settings": {
-                "image_ratio": "adapt",
+                "image_ratio": "portrait",
                 "toggle_overlay": false,
                 "overlay_color": "#00000026",
                 "overlay_style": "solid",
