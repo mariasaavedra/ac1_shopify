@@ -304,7 +304,7 @@
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
-                "type_preset": "h1",
+                "type_preset": "h3",
                 "font": "var(--font-body--family)",
                 "font_size": "1rem",
                 "line_height": "normal",
@@ -420,7 +420,10 @@
       },
       "name": "t:names.collections_grid",
       "settings": {
-        "collection_list": [],
+        "collection_list": [
+          "athletic-tees",
+          "oversized-hoodie"
+        ],
         "layout_type": "grid",
         "carousel_on_mobile": false,
         "columns": 2,
