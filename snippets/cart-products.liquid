@@ -167,7 +167,7 @@
                       {%- for component in item.item_components -%}
                         <li>
                           {{- component.title -}}
-                          {%- if component.quantity > 1 -%}
+                          {%- if component.quantity > 0 -%}
                             <span> × {{ component.quantity }}</span>
                           {%- endif -%}
                         </li>
