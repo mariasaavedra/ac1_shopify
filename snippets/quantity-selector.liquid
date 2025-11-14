@@ -50,7 +50,7 @@
     name="{% if line_index %}updates[]{% else %}quantity{% endif %}"
     value="{{ in_cart_quantity | default: variant.quantity_rule.min | default: 1 }}"
     data-cart-quantity="{{ cart | item_count_for_variant: variant.id }}"
-    min=0
+    min="{% if line_index %}0{% else %}1{% endif %}"
     on:blur="/setQuantity"
     on:focus="/selectInputValue"
     ref="quantityInput"
