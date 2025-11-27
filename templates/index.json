@@ -42,12 +42,12 @@
           "type": "button",
           "name": "t:names.button",
           "settings": {
-            "label": "Shop Now",
-            "link": "shopify://collections/all",
+            "label": "SHOP BLACK FRIDAY",
+            "link": "shopify://collections/all-copy",
             "open_in_new_tab": false,
             "style_class": "button-secondary",
-            "width": "fit-content",
-            "custom_width": 100,
+            "width": "custom",
+            "custom_width": 33,
             "width_mobile": "fit-content",
             "custom_width_mobile": 100
           },
