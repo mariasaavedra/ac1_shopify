@@ -29,6 +29,19 @@
       {%- endif -%}
     </div>
   {%- endif -%}
+
+  {%- if product.available and product.template_suffix == 'default-prod-w-lowstock' -%}
+    <div class="product-badges__badge product-badges__badge--rectangle" style="background-color: #FFE765; color: #181818;">
+      LOW STOCK
+    </div>
+  {%- endif -%}
+
+  {%- if product.available and product.template_suffix == 'default-prod-top-rated' -%}
+    <div class="product-badges__badge product-badges__badge--rectangle" style="background-color: #1BE68E; color: #181818;">
+      TOP RATED
+    </div>
+  {%- endif -%}
+  
 </div>
 
 {% stylesheet %}
